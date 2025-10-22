@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng Sách ABC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <img src="https://phuongnamvina.com/img_data/images/mau-logo-nha-sach.jpg" alt="Logo Cửa hàng Sách ABC" width="120" height="60">
+        <h1>Cửa hàng Sách ABC</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#trang-chu">Trang chủ</a></li>
+                <li><a href="#san-pham">Sản phẩm</a></li>
+                <li><a href="#lien-he">Liên hệ</a></li>
+                <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Giới thiệu cửa hàng -->
+        <section id="gioi-thieu" class="intro">
+            <h2>Giới thiệu về Cửa hàng Sách ABC</h2>
+            <img class="banner" src="https://phuongnamvina.com/img_data/images/mau-logo-nha-sach.jpg" alt="Banner chào mừng đến Cửa hàng Sách ABC" width="960" height="280">
+            <p>Chào mừng bạn đến với Cửa hàng Sách ABC - nơi cung cấp những cuốn sách hay và bổ ích cho mọi lứa tuổi. Chúng tôi cam kết mang đến cho bạn những tác phẩm chất lượng cao với giá cả hợp lý.</p>
+        </section>
+
+        <!-- Danh sách sản phẩm -->
+        <section id="san-pham">
+            <h2>Sản phẩm nổi bật</h2>
+            <div id="product-list">
+                <article class="product-item">
+                    <h3>Harry Potter và Hòn đá Phù thủy</h3>
+                    <img src="https://dtv-ebook.com.vn/images/Cover/32421282793_c138b17ac8.jpg" alt="Harry Potter và Hòn đá Phù thủy">
+                    <p>Cuốn tiểu thuyết fantasy nổi tiếng của J.K. Rowling, kể về cuộc phiêu lưu của cậu bé Harry Potter tại trường phù thủy Hogwarts.</p>
+                    <p class="price"><strong>Giá: 150,000 VNĐ</strong></p>
+                </article>
+
+                <article class="product-item">
+                    <h3>Đắc Nhân Tâm</h3>
+                    <img src="https://nxbhcm.com.vn/Image/Biasach/dacnhantam86.jpg" alt="Đắc Nhân Tâm">
+                    <p>Cuốn sách kinh điển về nghệ thuật giao tiếp và xây dựng mối quan hệ tốt đẹp trong cuộc sống và công việc.</p>
+                    <p class="price"><strong>Giá: 89,000 VNĐ</strong></p>
+                </article>
+
+                <article class="product-item">
+                    <h3>To Kill a Mockingbird</h3>
+                    <img src="https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg" alt="To Kill a Mockingbird">
+                    <p>Tiểu thuyết kinh điển của Harper Lee, một tác phẩm sâu sắc về công lý, phân biệt chủng tộc và sự trưởng thành.</p>
+                    <p class="price"><strong>Giá: 120,000 VNĐ</strong></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Form liên hệ -->
+        <section id="lien-he">
+            <h2>Liên hệ với chúng tôi</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="ten">Họ và tên:</label>
+                    <input type="text" id="ten" name="ten" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="noi-dung">Nội dung tin nhắn:</label>
+                    <textarea id="noi-dung" name="noi-dung" rows="5" cols="50" required></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit">Gửi tin nhắn</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2024 Cửa hàng Sách ABC. Tất cả quyền được bảo lưu.</p>
+        <p>Địa chỉ: 123 Bach Mai, Hai Ba Trung, Hanoi | Điện thoại: (084) 1234-5678 | Email: sachabc@gmail.com</p>
+    </footer>
+</body>
+</html>
