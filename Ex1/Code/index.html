@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+   
+<head>
+    
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cửa hàng Sách ABC</title>
+    <!-- Tiêu đề của trang hiển thị trên tab trình duyệt -->
+</head>
+<body>
+   
+    <header>
+        <!-- Khu vực đầu trang: logo, tên cửa hàng, menu điều hướng -->
+        <img src="https://phuongnamvina.com/img_data/images/mau-logo-nha-sach.jpg" alt="Logo Cửa hàng Sách ABC" width="120" height="60">
+        <!-- Ảnh logo cửa hàng, có văn bản thay thế (alt) -->
+        <h1>Cửa hàng Sách ABC</h1>
+        <!-- Tên cửa hàng -->
+        <nav>
+            <!-- Thanh điều hướng  của trang -->
+            <ul>
+                <!-- Danh sách liên kết điều hướng -->
+                <li><a href="#trang-chu">Trang chủ</a></li>
+                <!-- Liên kết đến khu vực trang chủ  -->
+                <li><a href="#san-pham">Sản phẩm</a></li>
+                <!-- Liên kết đến danh sách sản phẩm -->
+                <li><a href="#lien-he">Liên hệ</a></li>
+                <!-- Liên kết đến biểu mẫu liên hệ -->
+                <li><a href="#gioi-thieu">Giới thiệu</a></li>
+                <!-- Liên kết đến phần giới thiệu cửa hàng -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Nội dung chính của trang -->
+        <!-- Giới thiệu cửa hàng -->
+        <section id="gioi-thieu">
+            <!-- Khu vực giới thiệu chung về cửa hàng -->
+            <h2>Giới thiệu về Cửa hàng Sách ABC</h2>
+            <!-- Tiêu đề phụ cho phần giới thiệu -->
+            <img src="https://phuongnamvina.com/img_data/images/mau-logo-nha-sach.jpg" alt="Banner chào mừng đến Cửa hàng Sách ABC" width="960" height="280">
+            <!-- Ảnh banner giới thiệu  -->
+            <p>Chào mừng bạn đến với Cửa hàng Sách ABC - nơi cung cấp những cuốn sách hay và bổ ích cho mọi lứa tuổi. Chúng tôi cam kết mang đến cho bạn những tác phẩm chất lượng cao với giá cả hợp lý.</p>
+            <!-- Đoạn mô tả slogan của cửa hàng -->
+        </section>
+
+        <!-- Danh sách sản phẩm -->
+        <section id="san-pham">
+            <!-- Khu vực liệt kê các sản phẩm nổi bật -->
+            <h2>Sản phẩm nổi bật</h2>
+            <!-- Tiêu đề phần danh sách sản phẩm -->
+            
+            <article>
+                <!-- Một sản phẩm  riêng lẻ -->
+                <h3>Harry Potter và Hòn đá Phù thủy</h3>
+                <!-- Tên sản phẩm -->
+                <img src="https://dtv-ebook.com.vn/images/Cover/32421282793_c138b17ac8.jpg" alt="Harry Potter và Hòn đá Phù thủy">
+                <!-- Ảnh bìa sản phẩm kèm văn bản thay thế -->
+                <p>Cuốn tiểu thuyết fantasy nổi tiếng của J.K. Rowling, kể về cuộc phiêu lưu của cậu bé Harry Potter tại trường phù thủy Hogwarts.</p>
+                <!-- Mô tả ngắn về sản phẩm -->
+                <p><strong>Giá: 150,000 VNĐ</strong></p>
+                <!-- Giá bán của sản phẩm -->
+            </article>
+
+            <article>
+                <!-- Sản phẩm thứ hai -->
+                <h3>Đắc Nhân Tâm</h3>
+                <!-- Tên sản phẩm -->
+                <img src="https://nxbhcm.com.vn/Image/Biasach/dacnhantam86.jpg" alt="Đắc Nhân Tâm">
+                <!-- Ảnh bìa sản phẩm -->
+                <p>Cuốn sách kinh điển về nghệ thuật giao tiếp và xây dựng mối quan hệ tốt đẹp trong cuộc sống và công việc.</p>
+                <!-- Mô tả ngắn về sản phẩm -->
+                <p><strong>Giá: 89,000 VNĐ</strong></p>
+                <!-- Giá bán của sản phẩm -->
+            </article>
+
+            <article>
+                <!-- Sản phẩm thứ ba -->
+                <h3>To Kill a Mockingbird</h3>
+                <!-- Tên sản phẩm -->
+                <img src="https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg" alt="To Kill a Mockingbird">
+                <!-- Ảnh bìa sản phẩm -->
+                <p>Tiểu thuyết kinh điển của Harper Lee, một tác phẩm sâu sắc về công lý, phân biệt chủng tộc và sự trưởng thành.</p>
+                <!-- Mô tả ngắn về sản phẩm -->
+                <p><strong>Giá: 120,000 VNĐ</strong></p>
+                <!-- Giá bán của sản phẩm -->
+            </article>
+        </section>
+
+        <!-- Form liên hệ -->
+        <section id="lien-he">
+            <!-- Khu vực biểu mẫu liên hệ -->
+            <h2>Liên hệ với chúng tôi</h2>
+            <!-- Tiêu đề phần liên hệ -->
+            <form action="#" method="post">
+                <!-- Biểu mẫu gửi thông tin liên hệ  -->
+                <div>
+                    <!-- Nhóm trường: Họ và tên -->
+                    <label for="ten">Họ và tên:</label>
+                    <!-- Nhãn cho ô nhập tên -->
+                    <input type="text" id="ten" name="ten" required>
+                    <!-- Ô nhập tên, bắt buộc điền -->
+                </div>
+                
+                <div>
+                    <!-- Nhóm trường: Email -->
+                    <label for="email">Email:</label>
+                    <!-- Nhãn cho ô nhập email -->
+                    <input type="email" id="email" name="email" required>
+                    <!-- Ô nhập email, kiểm tra đúng định dạng và bắt buộc -->
+                </div>
+                
+                <div>
+                    <!-- Nhóm trường: Nội dung tin nhắn -->
+                    <label for="noi-dung">Nội dung tin nhắn:</label>
+                    <!-- Nhãn cho vùng nhập nội dung -->
+                    <textarea id="noi-dung" name="noi-dung" rows="5" cols="50" required></textarea>
+                    <!-- Vùng nhập nội dung nhiều dòng, bắt buộc điền -->
+                </div>
+                
+                <div>
+                    <!-- Nhóm trường: Nút gửi -->
+                    <button type="submit">Gửi tin nhắn</button>
+                    <!-- Nút gửi biểu mẫu -->
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Chân trang: thông tin bản quyền và liên hệ -->
+        <p>&copy; 2024 Cửa hàng Sách ABC. Tất cả quyền được bảo lưu.</p>
+        <!-- Thông tin bản quyền -->
+        <p>Địa chỉ: 123 Bach Mai, Hai Ba Trung, Hanoi | Điện thoại: (084) 1234-5678 | Email: sachabc@gmail.com</p>
+        <!-- Địa chỉ, số điện thoại và email liên hệ -->
+    </footer>
+</body>
+</html>
